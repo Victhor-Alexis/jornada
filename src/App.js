@@ -20,6 +20,9 @@ function App() {
     
     if (perso === 1) {
       setMax(3);
+      setPlus(1);
+      setNewBtn("none");
+      setNumber(20);
     } else if (perso === 4) {
       setNewBtn("block");
       setPlus(1);
