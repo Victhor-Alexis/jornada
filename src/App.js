@@ -24,7 +24,6 @@ function App() {
       setNewBtn("block");
       setPlus(1);
       setMax(20);
-      setNewBtn("none");
       setNumber(20);
     } else {
       setPlus(1);
