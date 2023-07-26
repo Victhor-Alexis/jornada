@@ -22,6 +22,10 @@ function App() {
       setMax(3);
     } else if (perso === 4) {
       setNewBtn("block");
+      setPlus(1);
+      setMax(20);
+      setNewBtn("none");
+      setNumber(20);
     } else {
       setPlus(1);
       setMax(20);
